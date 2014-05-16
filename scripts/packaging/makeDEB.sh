@@ -12,7 +12,7 @@ cp hydra-worker-round-robin-init.d.sh ~/debbuild/etc/init.d/hydra-worker-round-r
 mkdir -p ~/debbuild/usr/local/hydra
 cp ../../bin/hydra-worker-round-robin  ~/debbuild/usr/local/hydra
 
-chmod -R 644 ~/debbuild/usr/local/hydra/* ~/debbuild/etc/hydra/*
+chmod -R 644 ~/debbuild/usr/local/hydra/*
 chmod 755 ~/debbuild/etc/init.d/hydra-worker-round-robin
 chmod 755 ~/debbuild/usr/local/hydra/hydra-worker-round-robin
 

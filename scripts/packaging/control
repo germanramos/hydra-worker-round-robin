@@ -1,0 +1,11 @@
+Package: hydra-worker-round-robin
+Version: 1-0
+Architecture: all
+Maintainer: innotech
+Installed-Size: 80
+Section: custom
+Priority: extra
+Description: Hydra Worker Round-Robin
+ Sort instances by round-robin algorithmm
+ .
+

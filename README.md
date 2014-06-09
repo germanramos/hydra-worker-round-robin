@@ -27,7 +27,7 @@ sudo yum install libzmq3-3.2.2-13.1.x86_64.rpm hydra-worker-round-robin-1-0.x86_
 
 In apps.json:
 
-- Name: "MapByLimit"
+- Name: "RoundRobin"
 
 ## Configuration example
 ```

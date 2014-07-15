@@ -7,6 +7,7 @@ rm -rf ~/rpmbuild
 rpmdev-setuptree
 
 mkdir ~/rpmbuild/SOURCES/hydra-worker-round-robin-1
+cp ./fixtures/hydra-worker-round-robin.conf  ~/rpmbuild/SOURCES/hydra-worker-round-robin-1
 cp hydra-worker-round-robin-init.d.sh ~/rpmbuild/SOURCES/hydra-worker-round-robin-1
 cp ../../bin/hydra-worker-round-robin ~/rpmbuild/SOURCES/hydra-worker-round-robin-1
 

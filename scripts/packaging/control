@@ -6,6 +6,6 @@ Installed-Size: 80
 Section: custom
 Priority: extra
 Description: Hydra Worker Round-Robin
- Sort instances by round-robin algorithmm
+ Sort instances by round-robin algorithm
  .
 

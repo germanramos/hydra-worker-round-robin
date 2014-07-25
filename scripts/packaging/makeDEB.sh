@@ -25,4 +25,4 @@ pushd ~
 sudo dpkg-deb --build debbuild
 
 popd
-sudo mv ~/debbuild.deb hydra-worker-round-robin-1-0.x86_64.deb
+sudo mv ~/debbuild.deb hydra-worker-round-robin-1-1.x86_64.deb

@@ -14,9 +14,9 @@ cp ../../bin/hydra-worker-round-robin ~/rpmbuild/SOURCES/hydra-worker-round-robi
 cp hydra-worker-round-robin.spec ~/rpmbuild/SPECS
 
 pushd ~/rpmbuild/SOURCES/
-tar czf hydra-worker-round-robin-1.0.tar.gz hydra-worker-round-robin-1/
+tar czf hydra-worker-round-robin-1.1.tar.gz hydra-worker-round-robin-1/
 cd ~/rpmbuild 
 rpmbuild -ba SPECS/hydra-worker-round-robin.spec
 
 popd
-cp ~/rpmbuild/RPMS/x86_64/hydra-worker-round-robin-1-0.x86_64.rpm .
+cp ~/rpmbuild/RPMS/x86_64/hydra-worker-round-robin-1-1.x86_64.rpm .

@@ -64,11 +64,6 @@ In Hydra Server configuration in the apps.json file (Default to /etc/hydra/apps.
 ```			
 This will sort the list of instances by round-robin algorithm remembering previous calls.
 
-## Service configuration
-
-No additional configuration is needed if running in the same machine that Hydra.  
-Tune start file at /etc/init.d/hydra-worker-round-robin if you run it in a separate machine.
-
 # Run
 ```
 sudo /etc/init.d/hydra-worker-round-robin start
